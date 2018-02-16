@@ -1,0 +1,223 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*font-size: 16px;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.navbar{
+	background-color: rgba(0,0,0,0.4);
+	height: 70px;
+	width: 100%;
+	border-bottom: 5px solid #11ba14;
+	position: fixed;
+	z-index: 500;
+	top: 0;
+} 
+.navbar ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+ .navbar ul>li{
+	float: left;
+	list-style-type: none;
+	width: 150px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	transition: all .5s ease;
+}
+.navbar ul>li>a{
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+	text-transform: uppercase;
+	
+}
+.navbar ul ul{
+	display: none;
+	position: relative;
+	/*z-index: 1;*/
+}
+.navbar ul li:hover>ul{
+	display: block;
+}
+.navbar ul li:hover{
+	background: #1EAF2F;
+} 
+ .head1{
+	color: #fff;
+	float: left;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 70px;
+	text-transform: uppercase; 
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+
+}
+.navbar ul ul li{
+	background: rgba(0,0,0,0.7);
+	height: 50px;
+	line-height: 50px;
+} 
+/*=========================this is banner css================*/
+ #banner{
+	width: 100%;
+	overflow: hidden;
+}
+#banner img{
+	width: 100%;
+}
+.banner-content{
+	width: 550px;
+	height: auto;
+	position: absolute;
+	top: 200px;
+	right: 50px;
+	color: #fff;
+	font-family: arial;
+	background: rgba(0,0,0,0.4);
+	padding: 20px;
+	border-radius: 10px;
+
+}
+.btn{
+	background: #14b11a;
+	width: 150px;
+	height: 35px;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+.btn:hover{
+	background: #0f8b14;
+}
+/*================this is grid system css===========*/
+.grid{
+	width: 100%;
+	max-width: 100%;
+	float: left;
+	padding: 80px 0px;
+	font-family: arial;
+}
+.grid h1{
+	text-align: center;
+}
+.col{
+	width: 30%;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+
+
+}
+.col img{
+	height: 150px;
+	width: 150px;
+	margin-left: 110px;
+}
+.col h3{
+	color: #699B82;
+	text-align: center;
+}
+.col p{
+	text-align: justify;
+	font-size: 20px;
+} */
+/*===================this for about us=================*/
+#about{
+	width: 100%;
+	float: left;
+}
+#left-bar{
+	width: 50%;
+	float: left;
+	background: #458952;
+	color: white;
+	font-family: arial;
+	padding: 80px 10px;
+	border-radius: 10px;
+}
+#left-bar h2,#left-bar p{
+	margin-left: 80px;
+}
+#right-bar{
+	width: 50%%;
+	float: left;
+}
+#right-bar img{
+	height: 330px;
+}
+/* footer css */
+#footer{
+	/*margin: 10px;*/
+	width: 100%;
+	height: 200px;
+	background: #4c4c4c;
+	float: left;
+	margin-top: 50px;
+}
+#footer h3{border-bottom: 2px solid white;
+	color: #fff;
+	font-family: arial;}
+.col-1{width: 300px;
+	color: #fff;
+	font-family: arial;
+	float: left;
+}
+.col-2{
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+}
+.col-2  ul li{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	line-height: 25%;
+}
+.col-2 a{
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	margin-left: -35px;
+}
+.col-2 a:hover{
+	color: #4D8550;
+}
+.col-4{width: 300px;
+	color: #fff;
+	font-family: arial;
+	float: left;
+	margin-left: 20px;
+}
+.e-mail{
+	padding: 0px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 7px;
+	border: none;
+	float: left;
+	color: #666;
+	background: #e4e4e4;
+}
+.subbtn{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #17152a;
+	color: #fff;
+	border: 0;
+	margin-left: -40.5px;
+	cursor: pointer; 
+}
+/*================copyright css===============*/
+
